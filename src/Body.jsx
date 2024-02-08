@@ -1,10 +1,11 @@
-
+import CardBlock from "./CardBlock.jsx"
 
 
 function Body() {
     return (
         <>
-            <h1>Body입니다.</h1>
+        <CardBlock className="card-block"/>
+
         </>
     )
 }

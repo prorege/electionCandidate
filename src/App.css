@@ -20,19 +20,27 @@
 }
 .main-text{
   position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -100%);
+  top: 40%;
+  left: 80%;
+  transform: translate(-50%, -80%);
   color: saddlebrown;
   border: 1px solid;
-  padding: 1%;
   border-radius: 10px;
   cursor: pointer;
   transition: color 0.5s ease, background-color 0.5s ease;
-
+  min-width: 360px;
+  min-height: 240px;
+  text-align: center;
+  box-sizing: border-box; /* 패딩과 테두리를 요소의 크기에 포함 */
+  display: flex; /* Flexbox 사용 */
+  flex-direction: column; /* 세로 방향으로 정렬 */
+  justify-content: center; /* 요소를 수직으로 가운데 정렬 */
 }
+
 
 .main-text:hover{
   color: wheat;
   background-color: black;
 }
+
+
