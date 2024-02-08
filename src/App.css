@@ -1,0 +1,38 @@
+.main{
+  background-image: url(./assets/main.jpg);
+  background-size: cover;
+  
+  /* 배경 색상을 투명하게 설정 (예: 검은색의 50% 투명도) */
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  /* 배경 이미지를 화면에 고정시킵니다. */
+  background-attachment:scroll;
+  
+  /* 배경 이미지의 위치를 가운데 정렬합니다. */
+  background-position: center;
+  
+  /* 배경 이미지가 반복되지 않도록 설정합니다. */
+  background-repeat: no-repeat;
+  
+  /* 화면 전체에 꽉 차게 설정합니다. */
+  width: 99vw;
+  height: 150vh;
+}
+.main-text{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  color: saddlebrown;
+  border: 1px solid;
+  padding: 1%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color 0.5s ease, background-color 0.5s ease;
+
+}
+
+.main-text:hover{
+  color: wheat;
+  background-color: black;
+}
